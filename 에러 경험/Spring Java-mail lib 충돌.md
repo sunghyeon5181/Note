@@ -11,7 +11,7 @@
   DEBUG SMTP: AUTH LOGIN succeeded   
   DEBUG SMTP: use8bit false   
   MAIL FROM:<XXX@XXX.com> [보내는 사람 메일]   
-  250 <XXX@XXX.com>, a168ce1865c56c51  [보내는 사람 메일]   
+  250 <XXX@XXX.com>, abcdef  [보내는 사람 메일]   
   RCPT TO:<YYY@YYY.com>   [받는사람 메일]   
   250 OK   
   DEBUG SMTP: Verified Addresses   
