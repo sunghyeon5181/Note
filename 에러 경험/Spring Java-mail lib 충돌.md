@@ -24,5 +24,5 @@
 
 2. 원인   
    Spring 프레임워크 pom.xml 파일에   
-   javax-mail, javax-mail-api 두개의 라이브러리가 있었고
+   javax-mail, javax-mail-api 두개의 라이브러리가 있었고   
    두개가 충돌하면서 mail Form이 발송이 안되는 문제 였습니다.   
