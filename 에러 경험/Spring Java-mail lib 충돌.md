@@ -1,7 +1,8 @@
 # Java-mail SMTP 무한로딩 에러
 
 1. 에러 내용
-   
+   <pre>
+   <code>
    DEBUG SMTP: Found extension "8BITMIME", arg ""   
    DEBUG SMTP: Found extension "SIZE", arg "41943040"   
    DEBUG SMTP: Found extension "AUTH", arg "PLAIN LOGIN"   
@@ -19,7 +20,10 @@
    DATA   
    354 Start mail input; end with <CRLF>.<CRLF>   
    QUIT   
-
+    
+   </code>
+   </pre>
+  
    server log에서 해당 부분까지 나오고 무한로딩이 걸렸습니다. 
 
 2. 원인   
