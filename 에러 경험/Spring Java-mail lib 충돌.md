@@ -25,4 +25,20 @@
 2. 원인   
    Spring 프레임워크 pom.xml 파일에   
    javax-mail, javax-mail-api 두개의 라이브러리가 있었고   
-   두개가 충돌하면서 mail Form이 발송이 안되는 문제 였습니다.   
+   두개가 충돌하면서 mail Form이 발송이 안넘어가는 문제
+   참고 <https://stackoverflow.com/questions/1010296/javamail-not-sending-subject-or-from-under-jettyrun-war> 
+
+
+3. 해결방법
+    <dependency>
+            <groupId>javax.mail</groupId>
+            <artifactId>javax.mail-api</artifactId>
+            <version>1.5.5</version>
+        </dependency>
+ 
+        <dependency>
+            <groupId>javax.mail</groupId>
+            <artifactId>mail</artifactId>
+            <version>1.4.7</version>
+        </dependency>
+  
