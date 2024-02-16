@@ -1,8 +1,11 @@
 # Java-mail SMTP 무한로딩 에러
 
 1. 에러 내용
+
   DEBUG SMTP: Found extension "8BITMIME", arg ""
+  
   DEBUG SMTP: Found extension "SIZE", arg "41943040"
+  
   DEBUG SMTP: Found extension "AUTH", arg "PLAIN LOGIN"
   DEBUG SMTP: Found extension "STARTTLS", arg ""
   DEBUG SMTP: Attempt to authenticate using mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM
