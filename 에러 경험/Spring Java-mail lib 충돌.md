@@ -10,12 +10,12 @@
   DEBUG SMTP: AUTH LOGIN command trace suppressed   
   DEBUG SMTP: AUTH LOGIN succeeded   
   DEBUG SMTP: use8bit false   
-  MAIL FROM:<XXX@XXX.com>                                                                 [보내는 사람 메일]        
-  250 <help@kaflixcloud.co.jp>, a168ce1865c56c51     
-  RCPT TO:<eddie@jejupass.co.kr>
-  250 OK
-  DEBUG SMTP: Verified Addresses
-  DEBUG SMTP:   eddie@jejupass.co.kr
-  DATA
-  354 Start mail input; end with <CRLF>.<CRLF>
-  QUIT
+  MAIL FROM:<XXX@XXX.com> [보내는 사람 메일]   
+  250 <XXX@XXX.com>, a168ce1865c56c51  [보내는 사람 메일]   
+  RCPT TO:<YYY@YYY.com>   [받는사람 메일]   
+  250 OK   
+  DEBUG SMTP: Verified Addresses   
+  DEBUG SMTP:   YYY@YYY.com   
+  DATA   
+  354 Start mail input; end with <CRLF>.<CRLF>   
+  QUIT   
