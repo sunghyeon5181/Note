@@ -31,9 +31,9 @@
 
 4. 해결방법
    ```   
-   <dependency>
-      <groupId>javax.mail</groupId>
-      <artifactId>javax.mail-api</artifactId>
+   <dependency>   
+      <groupId>javax.mail</groupId>
+      <artifactId>javax.mail-api</artifactId>
       <version>1.5.5</version>
    </dependency>
  
