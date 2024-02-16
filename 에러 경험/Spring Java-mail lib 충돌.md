@@ -43,4 +43,5 @@
       <version>1.4.7</version>
    </dependency>
    ```
+   부분에서 javax.mail-api 부분을 주석으로 막고 maven실행후 다시 진행 해보면 문제 해결할수 있다.   
     
