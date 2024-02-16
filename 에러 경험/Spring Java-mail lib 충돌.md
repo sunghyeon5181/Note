@@ -20,10 +20,8 @@
    DATA   
    354 Start mail input; end with <CRLF>.<CRLF>   
    QUIT   
-    
    </code>
    </pre>
-  
    server log에서 해당 부분까지 나오고 무한로딩이 걸렸습니다. 
 
 2. 원인   
